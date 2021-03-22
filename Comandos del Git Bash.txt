@@ -1,0 +1,32 @@
+Git Bash comandos:
+° pwd --> muestra la ruta actual.
+
+° ls --> Lista los elementos (archivos y/o carpetas) que hay en la ruta actual.
+
+° ls -al --> Lista los elementos (archivos y/o carpetas) que hay en la ruta actual, junto con los elementos ocultos.
+
+ls -al No es un comando, ls si lo es pero -al son dos letras que hacen referencias, "a" (all muestra todo hasta los archivos ocultos) y "l" (coloca todos los archivosy elementos uno abajo de otro).
+
+Cuando queremos usar letras que hacen cierta accion debemos poner -(letra), si queremos usar una palabra que hacen cierta accion debemos poner --(palabra).
+
+° clear --> Sirve para limpiar el bash (pantalla). Para este comando hay un atajo que es CTRL+L.
+
+° cd .. --> Nos permite retroceder una carpeta.
+
+° cd (nombre de la carpeta) --> Entro a una de las carpetas en la ruta actual. Cuando aparace ~ significa que estamos en la ruta principal, en este caso ana. Si colocamos las primeras letras del nombre de la carpeta y presinamos TAB nos va a auto completar el nombre, en caso de que solo haya una carpeta con esas letras inciales, o nos va lanzar carpetas que empienzen con esas letras, en caso de que existan carpetas con esas letras.
+
+° mkdir (nombre carpeta) --> crear carpeta.
+
+° touch (nombre.txt) --> crear archivo de texto plano.
+
+° cat (nombre del archivo) --> Ver archivo por medio de la terminal.
+
+° history --> permite ver el historial de comando usados.
+
+° ! numero de linea --> Tomando en cuenta el historial de comandos podemos volver a ejecutar comandos con este comando, donde colocamos ! y luego el numero de linea que tiene el comando en el historial de comandos.
+
+° rm (nombre del archivo) --> sirve para borrar archivos. Importante, no aplicar este comando en el disco C ya que puede borrar nuestro servidor.
+
+° comando (rm, ls, etc..) --help --> nos dice todas las letras o palabras que se pueden usar para este comando.
+
+°code (archivo) --> nos permite crear un archivo y abrirlo en VSCode. Si ya esta credo nos permite abrirlo.
