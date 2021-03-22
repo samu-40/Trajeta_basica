@@ -2,4 +2,63 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.tarjeta {
+    width: 20%;
+    height: 450px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    transition: border-radius .5s, box-shadow .5s, background .5s;
+}
+
+.tarjeta:hover {
+    background: #55f;
+    border-radius: 3%;
+    box-shadow: 3px 3px 8px #ddda, -3px 3px 8px #ddda, 0px -3px 8px #ddda;
+}
+
+.caja-img {
+    width: 100%;
+    height: 344px;
+    background: url(https://dm.henkel-dam.com/is/image/henkel/450x600_GettyImages_Nikada_Modelo-con-pelo-corte-y-raya-al-lado?scl=1&fmt=jpeg);
+    background-size: cover;
+    transition: border-radius .5s;
+    margin-bottom: 5px;
+}
+
+.caja-texto {
+    width: 100%;
+    padding: 5px;
+    padding-top: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    flex-grow: 1;
+    color: #fff;
+}
+
+.caja-texto h3 {
+    margin-bottom: 8px;
+    letter-spacing: 1px;
+}
+
+.caja-texto a {
+    text-decoration: none;
+    color: #fff;
+    margin: 2px 0;
+}
+
+.tarjeta.tarjeta:hover>.caja-img {
+    border-radius: 10%;
 }
